@@ -15,7 +15,7 @@ if($("#element_3").val() == "")
 }
 else
 {
-	sevis=$("#element_1").val();
+	sevis=$("#element_3").val();
 }
 var level=$("#element_4").val();
 var spa=$("#element_5").val();
@@ -47,7 +47,7 @@ var assist=$("#element_15").val();
 var opt=$("#element_13").val();
 var add=$("#element_18").val();
 
-var querystring ="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&visa="+visa+"&visaexe="+visa_exe+"&sevis="+sevis+"&lv="+level+"&spa="+spa+"&em="+email+"&lev="+lv_us+"&rt="+rt_us+"&enr="+enr+"&enrh="+enrh+"&mj="+major+"&gs="+gd_sem+"&as="+assist+"&opt="+opt+"&add="+add;
+var querystring="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&visa="+visa+"&visaexe="+visa_exe+"&sevis="+sevis+"&lv="+level+"&spa="+spa+"&em="+email+"&lev="+lv_us+"&rt="+rt_us+"&enr="+enr+"&enrh="+enrh+"&mj="+major+"&gs="+gd_sem+"&as="+assist+"&opt="+opt+"&add="+add;
 var url = "https://okstate.forms-db.com/view.php?id=734119"+querystring;
 $("#element_26").val(url.replaceAll(" ", "%20"));
 });
