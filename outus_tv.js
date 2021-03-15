@@ -8,6 +8,7 @@ var visa_exe_dd=$("#element_8_2").val();
 var visa_exe_mm=$("#element_8_1").val();
 var visa_exe_yy=$("#element_8_3").val();
 var visa_exe=visa_exe_mm+"/"+visa_exe_dd+"/"+visa_exe_yy;
+/*
 var sevis;
 if($("#element_3").val() == "")
 {
@@ -46,8 +47,9 @@ var gd_sem=$("#element_12").val();
 var assist=$("#element_15").val();
 var opt=$("#element_13").val();
 var add=$("#element_18").val();
-
-var querystring="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&visa="+visa+"&visaexe="+visa_exe+"&sevis="+sevis+"&lv="+level+"&spa="+spa+"&em="+email+"&lev="+lv_us+"&rt="+rt_us+"&enr="+enr+"&enrh="+enrh+"&mj="+major+"&gs="+gd_sem+"&as="+assist+"&opt="+opt+"&add="+add;
+*/
+//var querystring="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&visa="+visa+"&visaexe="+visa_exe+"&sevis="+sevis+"&lv="+level+"&spa="+spa+"&em="+email+"&lev="+lv_us+"&rt="+rt_us+"&enr="+enr+"&enrh="+enrh+"&mj="+major+"&gs="+gd_sem+"&as="+assist+"&opt="+opt+"&add="+add;
+var querystring="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&visa="+visa+"&visaexe="+visa_exe;;
 var url = "https://okstate.forms-db.com/view.php?id=734119"+querystring;
 $("#element_26").val(url.replaceAll(" ", "%20"));
 });
