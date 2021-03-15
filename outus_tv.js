@@ -32,7 +32,15 @@ var rt_us_yy=$("#element_20_3").val();
 var rt_us=rt_us_mm+"/"+rt_us_dd+"/"+rt_us_yy;
 
 var enr=$("#element_10").val();
-var enrh=$("#element_14").val();
+var enrh;
+if($("#element_14").val() == "")
+{
+	enrh="0";
+}
+else
+{
+	enrh=$("#element_14").val();
+}
 var major=$("#element_16").val();
 var gd_sem=$("#element_12").val();
 var assist=$("#element_15").val();
@@ -41,6 +49,6 @@ var add=$("#element_18").val();
 
 var querystring ="&CWID="+CWID+"&ln="+lastName+"&fn="+firstName+"&visa="+visa+"&visaexe="+visa_exe+"&sevis="+sevis+"&lv="+level+"&spa="+spa+"&em="+email+"&lev="+lv_us+"&rt="+rt_us+"&enr="+enr+"&enrh="+enrh+"&mj="+major+"&gs="+gd_sem+"&as="+assist+"&opt="+opt+"&add="+add;
 var url = "https://okstate.forms-db.com/view.php?id=702651"+querystring;
-$("#element_25").val(url.replaceAll(" ", "%20"));
+$("#element_26").val(url.replaceAll(" ", "%20"));
 });
 });
