@@ -1,5 +1,5 @@
 $(function() {
-$("#submit_primary").click(function(e){
+$("#submit_form").click(function(e){
 var CWID=$("#element_2").val();
 var lastName= $("#element_1_2").val();
 var firstName=$("#element_1_1").val();
