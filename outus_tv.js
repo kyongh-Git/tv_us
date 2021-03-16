@@ -7,11 +7,11 @@ var visa=$("input[name='element_7']:checked").val();
 var visa_value;
 if(visa=="1")
 {
-	visa_value="Yes";
+	visa_value="F";
 }
 else if(visa=="2")
 {
-	visa_value="No";
+	visa_value="J";
 }
 
 var visa_exe_dd=$("#element_8_2").val();
