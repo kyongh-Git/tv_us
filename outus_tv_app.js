@@ -87,7 +87,79 @@ $("#element_16").val(vs.replaceAll("%20", " "));
 //graduate
 arr = urlparam[16].split(",");
 vs=arr[0];
-$("#element_44").val(vs.replaceAll("%20", " "));
+if(vs == "4")
+{
+	$("#element_44").val("Spring 2021");
+}
+else if(vs == "5")
+{
+	$("#element_44").val("Summer 2021");
+}
+else if(vs == "6")
+{
+	$("#element_44").val("Fall 2021");
+}
+else if(vs == "7")
+{
+	$("#element_44").val("Spring 2022");
+}
+else if(vs == "8")
+{
+	$("#element_44").val("Summer 2022");
+}
+else if(vs == "9")
+{
+	$("#element_44").val("Fall 2022");
+}
+else if(vs == "10")
+{
+	$("#element_44").val("Spring 2023");
+}
+else if(vs == "11")
+{
+	$("#element_44").val("Summer 2023");
+}
+else if(vs == "12")
+{
+	$("#element_44").val("Fall 2023");
+}
+else if(vs == "13")
+{
+	$("#element_44").val("Spring 2024");
+}
+else if(vs == "14")
+{
+	$("#element_44").val("Summer 2024");
+}
+else if(vs == "15")
+{
+	$("#element_44").val("Fall 2024");
+}
+else if(vs == "16")
+{
+	$("#element_44").val("Spring 2025");
+}
+else if(vs == "17")
+{
+	$("#element_44").val("Summer 2025");
+}
+else if(vs == "18")
+{
+	$("#element_44").val("Fall 2025");
+}
+else if(vs == "19")
+{
+	$("#element_44").val("Spring 2026");
+}
+else if(vs == "20")
+{
+	$("#element_44").val("Summer 2026");
+}
+else if(vs == "21")
+{
+	$("#element_44").val("Fall 2026");
+}
+
 
 //assistantship
 arr = urlparam[17].split(",");
