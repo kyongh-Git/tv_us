@@ -73,7 +73,7 @@ else if(enr=="2")
 }
 
 var enrh;
-if($("#element_14").val() == "")
+if(enr=="2")
 {
 	enrh="0";
 }
